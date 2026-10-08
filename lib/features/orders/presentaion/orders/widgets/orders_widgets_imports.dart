@@ -1,0 +1,22 @@
+import 'package:base_structure/core/constants/dimens.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/theme/text/app_text_style.dart';
+import 'package:base_structure/core/widgets/CachedImage.dart';
+import 'package:base_structure/core/widgets/shimmers/base_shimmer_widget.dart';
+import 'package:base_structure/core/widgets/shimmers/text_shimmer.dart';
+import 'package:base_structure/features/orders/data/models/order_model/order_model.dart';
+import 'package:base_structure/features/orders/data/models/step_model/step_model.dart';
+import 'package:base_structure/features/orders/presentaion/order_details/order_details_imports.dart';
+import 'package:base_structure/features/orders/presentaion/orders/orders_imports.dart';
+import 'package:base_structure/res.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:go_router/go_router.dart';
+
+part 'order_card.dart';
+part 'orders_view.dart';
+part 'orders_loading_view.dart';
+part 'green_line.dart';
+part 'state_circle.dart';

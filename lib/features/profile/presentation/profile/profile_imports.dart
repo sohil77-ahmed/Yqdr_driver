@@ -1,0 +1,37 @@
+import 'package:base_structure/core/bloc/base_bloc/base_bloc.dart';
+import 'package:base_structure/core/bloc/base_bloc/base_bloc_builder.dart';
+import 'package:base_structure/core/bloc/device_cubit/device_cubit.dart';
+import 'package:base_structure/core/bloc/value_state_manager/value_state_manager_import.dart';
+import 'package:base_structure/core/constants/app_constants.dart';
+import 'package:base_structure/core/constants/dimens.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/helpers/app_snack_bar_service.dart';
+import 'package:base_structure/core/helpers/di.dart';
+import 'package:base_structure/core/helpers/global_state.dart';
+import 'package:base_structure/core/helpers/utilities.dart';
+import 'package:base_structure/core/models/base_response_model/base_response_model.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/theme/text/app_text_style.dart';
+import 'package:base_structure/core/usecases/use_case.dart';
+import 'package:base_structure/core/widgets/custom_alert_dialog.dart';
+import 'package:base_structure/features/auth/presentation/pages/login/login_imports.dart';
+import 'package:base_structure/features/base/presentation/pages/home/home_imports.dart';
+import 'package:base_structure/features/general/presentation/pages/terms/terms_imports.dart';
+import 'package:base_structure/features/orders/presentaion/orders/orders_imports.dart';
+import 'package:base_structure/features/profile/data/models/account_response_model/account_response_model.dart';
+import 'package:base_structure/features/profile/domain/use_cases/delete_account_use_case.dart';
+import 'package:base_structure/features/profile/domain/use_cases/get_account_use_case.dart';
+import 'package:base_structure/features/profile/domain/use_cases/logout_use_case.dart';
+import 'package:base_structure/features/profile/presentation/account_info/account_info_imports.dart';
+import 'package:base_structure/features/profile/presentation/profile/widgets/profile_widgets_imports.dart';
+import 'package:base_structure/res.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+
+part 'profile.dart';
+part 'profile_controller.dart';

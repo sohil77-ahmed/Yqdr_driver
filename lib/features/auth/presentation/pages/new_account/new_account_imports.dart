@@ -1,0 +1,27 @@
+import 'package:base_structure/core/bloc/base_bloc/base_bloc.dart';
+import 'package:base_structure/core/bloc/base_bloc/base_bloc_builder.dart';
+import 'package:base_structure/core/bloc/value_state_manager/value_state_manager_import.dart';
+import 'package:base_structure/core/constants/CustomButtonAnimation.dart';
+import 'package:base_structure/core/constants/dimens.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/helpers/app_snack_bar_service.dart';
+import 'package:base_structure/core/models/base_response_model/base_response_model.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/theme/text/app_text_style.dart';
+import 'package:base_structure/core/usecases/use_case.dart';
+import 'package:base_structure/features/auth/data/models/category_model/category_model.dart';
+import 'package:base_structure/features/auth/data/models/login_response_model/login_response_model.dart';
+import 'package:base_structure/features/auth/data/models/package_model/package_model.dart';
+import 'package:base_structure/features/auth/data/models/register_data_model/register_data_model.dart';
+import 'package:base_structure/features/auth/domain/entities/register_params.dart';
+import 'package:base_structure/features/auth/domain/usecases/get_register_data_use_case.dart';
+import 'package:base_structure/features/auth/domain/usecases/register_use_case.dart';
+import 'package:base_structure/features/auth/presentation/pages/active_account/active_account_imports.dart';
+import 'package:base_structure/features/auth/presentation/pages/new_account/widgets/new_account_widgets_imports.dart';
+import 'package:base_structure/features/auth/presentation/widgets/auth_scaffold.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
+
+part 'new_account_screen.dart';
+part 'new_account_controller.dart';

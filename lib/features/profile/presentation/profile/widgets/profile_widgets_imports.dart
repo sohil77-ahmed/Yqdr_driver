@@ -1,0 +1,25 @@
+import 'package:base_structure/core/bloc/value_state_manager/value_state_manager_import.dart';
+import 'package:base_structure/core/constants/dimens.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/theme/text/app_text_style.dart';
+import 'package:base_structure/core/widgets/CachedImage.dart';
+import 'package:base_structure/core/widgets/LoadingButton.dart';
+import 'package:base_structure/core/widgets/shimmers/base_shimmer_widget.dart';
+import 'package:base_structure/core/widgets/shimmers/circle_shimmer.dart';
+import 'package:base_structure/core/widgets/shimmers/text_shimmer.dart';
+import 'package:base_structure/features/notifications/presentation/notifications/notifications_imports.dart';
+import 'package:base_structure/features/profile/data/models/account_info_model/account_info_model.dart';
+import 'package:base_structure/features/profile/presentation/profile/profile_imports.dart';
+import 'package:base_structure/res.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:go_router/go_router.dart';
+
+part 'profile_header.dart';
+part 'setting_row.dart';
+part 'label_settings.dart';
+part 'change_lang_bottom_sheet.dart';
+part 'green_switch_tile.dart';
+part 'profile_loading_view.dart';

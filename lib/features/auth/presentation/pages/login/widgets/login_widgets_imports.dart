@@ -1,0 +1,21 @@
+import 'package:base_structure/core/bloc/value_state_manager/value_state_manager_import.dart';
+import 'package:base_structure/features/auth/presentation/pages/forget_password/forget_password_imports.dart';
+import 'package:base_structure/features/auth/presentation/pages/new_account/new_account_imports.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/helpers/validator.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/theme/text/app_text_style.dart';
+import 'package:base_structure/core/widgets/GenericTextField.dart';
+import 'package:base_structure/core/widgets/LoadingButton.dart';
+import 'package:base_structure/res.dart';
+import 'package:go_router/go_router.dart';
+import '../login_imports.dart';
+
+part 'build_login_form.dart';
+part 'build_login_button.dart';
+part 'build_forget_password_view.dart';
+part 'header_image.dart';
+part 'login_view.dart';

@@ -1,0 +1,24 @@
+import 'package:base_structure/core/bloc/base_bloc/base_bloc.dart';
+import 'package:base_structure/core/bloc/base_bloc/base_bloc_builder.dart';
+import 'package:base_structure/core/constants/CustomButtonAnimation.dart';
+import 'package:base_structure/core/constants/dimens.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/helpers/app_snack_bar_service.dart';
+import 'package:base_structure/core/models/base_response_model/base_response_model.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/usecases/use_case.dart';
+import 'package:base_structure/core/widgets/LoadingButton.dart';
+import 'package:base_structure/core/widgets/default_app_bar.dart';
+import 'package:base_structure/features/profile/data/models/profile_model/profile_model.dart';
+import 'package:base_structure/features/profile/domain/entities/update_profile_params.dart';
+import 'package:base_structure/features/profile/domain/use_cases/get_profile_use_case.dart';
+import 'package:base_structure/features/profile/domain/use_cases/update_profile_use_case.dart';
+import 'package:base_structure/features/profile/presentation/account_info/widgets/widgets_imports.dart';
+import 'package:base_structure/features/profile/presentation/change_password/change_password_imports.dart';
+import 'package:base_structure/res.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
+
+part 'account_info_screen.dart';
+part 'account_info_controller.dart';

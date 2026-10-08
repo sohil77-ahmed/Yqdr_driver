@@ -1,0 +1,27 @@
+import 'package:base_structure/core/bloc/device_cubit/device_cubit.dart';
+import 'package:base_structure/core/bloc/value_state_manager/value_state_manager_import.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/constants/input_field_style/custom_input_decoration.dart';
+import 'package:base_structure/core/helpers/validator.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/theme/text/app_text_style.dart';
+import 'package:base_structure/core/widgets/GenericTextField.dart';
+import 'package:base_structure/core/widgets/LoadingButton.dart';
+import 'package:base_structure/features/auth/data/models/category_model/category_model.dart';
+import 'package:base_structure/features/auth/data/models/package_model/package_model.dart';
+import 'package:base_structure/features/auth/data/models/terms_model/terms_model.dart';
+import 'package:base_structure/features/auth/presentation/pages/new_account/new_account_imports.dart';
+import 'package:base_structure/features/general/presentation/pages/terms/terms_imports.dart';
+import 'package:base_structure/res.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:go_router/go_router.dart';
+
+part 'new_account_form.dart';
+part 'terms_of_use_row.dart';
+part 'action_text_row.dart';
+part 'terms_check_box.dart';
+part 'new_account_button.dart';

@@ -1,0 +1,25 @@
+import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
+import 'package:base_structure/core/bloc/base_bloc/base_bloc_builder.dart';
+import 'package:base_structure/core/bloc/value_state_manager/value_state_manager_import.dart';
+import 'package:base_structure/core/constants/dimens.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/theme/text/app_text_style.dart';
+import 'package:base_structure/core/widgets/CachedImage.dart';
+import 'package:base_structure/core/widgets/LoadingButton.dart';
+import 'package:base_structure/features/base/presentation/pages/home/home_imports.dart';
+import 'package:base_structure/features/orders/data/models/step_model/step_model.dart';
+import 'package:base_structure/features/orders/presentaion/order_details/order_details_imports.dart';
+import 'package:base_structure/features/orders/presentaion/orders/orders_imports.dart';
+import 'package:base_structure/features/orders/presentaion/orders/widgets/orders_widgets_imports.dart';
+import 'package:base_structure/res.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:go_router/go_router.dart';
+
+part 'bottom_nav_home_page_widget.dart';
+part 'home_main_screen.dart';
+part 'in_active_view.dart';
+part 'active_view.dart';
+part 'home_order_card.dart';

@@ -1,0 +1,20 @@
+import 'package:base_structure/core/bloc/base_bloc/base_bloc.dart';
+import 'package:base_structure/core/bloc/value_state_manager/value_state_manager_import.dart';
+import 'package:base_structure/core/constants/CustomButtonAnimation.dart';
+import 'package:base_structure/core/constants/dimens.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/helpers/app_snack_bar_service.dart';
+import 'package:base_structure/core/models/base_response_model/base_response_model.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/theme/text/app_text_style.dart';
+import 'package:base_structure/core/widgets/LoadingButton.dart';
+import 'package:base_structure/core/widgets/default_app_bar.dart';
+import 'package:base_structure/features/profile/domain/entities/reset_password_params.dart';
+import 'package:base_structure/features/profile/domain/use_cases/reset_password_use_case.dart';
+import 'package:base_structure/features/profile/presentation/change_password/widgets/widgets_imports.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
+
+part 'change_password_screen.dart';
+part 'change_password_controller.dart';

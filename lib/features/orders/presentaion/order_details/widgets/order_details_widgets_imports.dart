@@ -1,0 +1,22 @@
+import 'package:base_structure/core/bloc/value_state_manager/value_state_manager_import.dart';
+import 'package:base_structure/core/constants/CustomButtonAnimation.dart';
+import 'package:base_structure/core/constants/dimens.dart';
+import 'package:base_structure/core/constants/gaps.dart';
+import 'package:base_structure/core/helpers/validator.dart';
+import 'package:base_structure/core/theme/colors/colors_extension.dart';
+import 'package:base_structure/core/theme/text/app_text_style.dart';
+import 'package:base_structure/core/widgets/GenericTextField.dart';
+import 'package:base_structure/core/widgets/LoadingButton.dart';
+import 'package:base_structure/features/orders/presentaion/order_details/order_details_imports.dart';
+import 'package:base_structure/res.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:go_router/go_router.dart';
+
+part 'delete_dialog.dart';
+part 'pickup_details_card.dart';
+part 'delivery_area_card.dart';
+part 'additional_details_card.dart';
+part 'order_status_dropdown.dart';
+part 'order_details_bottom_bar.dart';
